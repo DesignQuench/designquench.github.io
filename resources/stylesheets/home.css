@@ -579,7 +579,7 @@ input[type=submit] {
 	margin-top: 25px;
 	margin-bottom: 40px;
 	border: 1px solid #d9dcdf;
-	font-family: Courier, monospace;
+	font-family: Consolas, Courier, monospace;
 	color: #757575;
 }
 
