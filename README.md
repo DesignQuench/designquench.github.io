@@ -22,4 +22,4 @@ rm README.md
 
 c
 
-https://ga-beacon.appspot.com/UA-53505204-2/PhoenixUI/?pixel
+[![Analytics](https://ga-beacon.appspot.com/UA-53505204-2/PhoenixUI/)](https://github.com/igrigorik/ga-beacon)
