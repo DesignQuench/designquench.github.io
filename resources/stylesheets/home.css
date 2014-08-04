@@ -609,3 +609,8 @@ input[type=submit] {
 #email {
 	margin-bottom: 10px;
 }
+
+.prompt {
+	-webkit-user-select: none;
+	padding-right: 7px;
+}
