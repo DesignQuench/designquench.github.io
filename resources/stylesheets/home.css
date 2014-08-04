@@ -613,4 +613,5 @@ input[type=submit] {
 .prompt {
 	-webkit-user-select: none;
 	padding-right: 7px;
+	color: #95a5a6;
 }

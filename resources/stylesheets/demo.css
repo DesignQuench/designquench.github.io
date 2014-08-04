@@ -342,6 +342,8 @@ h3 {
 
 .well {
 	padding: 10px;
+	padding-left: 20px;
+	;
 	margin-top: 5px;
 	margin-bottom: 20px;
 	background-color: #303030;
@@ -350,10 +352,6 @@ h3 {
 	border-radius: 5px;
 	display: inline-block;
 	padding-right: 17px;
-}
-
-.code-sample {
-	margin-left: 10px;
 }
 
 #phui-vs {
