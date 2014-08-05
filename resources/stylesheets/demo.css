@@ -575,3 +575,33 @@ input[type=checkbox] + label span {
 input[type=checkbox]:checked + label span {
 	background-image: url(https://github.com/PhoenixUI/PhoenixUI/blob/master/app/img/checkbox.png);
 	background-position: 0px -46px;
+}
+
+.arrow {
+	margin-top: 10px;
+}
+
+.arrow:after, .arrow:before {
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow:after {
+	border-color: rgba(56, 168, 249, 0);
+	border-bottom-color: #38a8f9;
+	border-width: 10px;
+	margin-left: -10px;
+}
+
+.arrow:before {
+	border-color: rgba(0, 0, 0, 0);
+	border-bottom-color: #;
+	border-width: 16px;
+	margin-left: -16px;
+}
