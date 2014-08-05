@@ -674,7 +674,7 @@ input[type=submit] {
 	text-align: center;
 	margin-left: auto;
 	margin-right: 10px;
-	margin-bottom: 25px;
+	margin-bottom: 200px;
 }
 
 .btnp:hover {
@@ -714,6 +714,6 @@ input[type=submit] {
 
 #whatisphoenix {
 	background-color: #38a8f9;
-	padding-top: 200px;
+	padding-top: 20px;
 	padding-bottom: 20px;
 }
