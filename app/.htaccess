@@ -1,5 +1,4 @@
 Order deny,allow
-ErrorDocument 404 404.html
 DirectoryIndex index.html
 RewriteRule ^index$ index.html [L]
 RewriteRule ^components$ components.html [L]
