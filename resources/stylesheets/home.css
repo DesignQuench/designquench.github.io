@@ -672,9 +672,14 @@ input[type=submit] {
 	text-decoration: none;
 	text-align: center;
 	margin-left: auto;
+<<<<<<< HEAD
 	margin-right: auto;
 	margin-bottom: 60px;
 	width: 700px;
+=======
+	margin-right: 10px;
+	margin-bottom: 250px;
+>>>>>>> parent of d3a076f... Changed margin
 }
 
 .btnp:hover {
