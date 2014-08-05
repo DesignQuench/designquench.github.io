@@ -1,25 +1,22 @@
 ## What is Phoenix?
+
 Phoenix is a CSS framework. It is made to have simple code and a modern look, almost a flat look. No gloss allowed.
 Check out the Trello board here: https://trello.com/b/y0eEL7Ob/phoenix-ui
+
+[![wercker status](https://app.wercker.com/status/dd7f600b30cf2c3ec563382a6fb5b5ec/m "wercker status")](https://app.wercker.com/project/bykey/dd7f600b30cf2c3ec563382a6fb5b5ec)`
 
 ##Join the Phoenix Team
 If you'd like to contribute, shoot me an email at jake@phoenixui.tk, or join the official beta testers list here: http://eepurl.com/0eiyf
 
 You can also join the Gitter chat here: https://gitter.im/PhoenixUI/PhoenixUI
 
+##See a bug? Help squash it! Create an issue or pull request.
+
 ## Installation: CSS only
-Even though it's not done yet, you can still install it. Copy and paste this into Terminal, then hit Enter after it stops.
+![Bower Package](http://img.shields.io/badge/bower%20install-phoenixui-2ecc71.svg?style=flat)
 
-git clone https://github.com/jakerm2002/PhoenixUI
+Copy and paste this into Terminal. You must have Node, npm, and Git.
 
-mv PhoenixUI/app/PhoenixUI/ PhoenixUI/
-
-cd PhoenixUI/
-
-rm -R app
-
-rm README.md
-
-c
+bower install pheonixui
 
 [![Analytics](https://ga-beacon.appspot.com/UA-53505204-2/PhoenixUI/?pixel)](https://github.com/igrigorik/ga-beacon)
