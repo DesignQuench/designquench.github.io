@@ -706,3 +706,9 @@ input[type=submit] {
 	font-size: 60px;
 	color: #757575;
 }
+
+.prompt {
+	-webkit-user-select: none;
+	padding-right: 15px;
+	color: #999999;
+}
