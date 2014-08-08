@@ -426,6 +426,30 @@ input.warning-flat {
 	box-shadow: none;
 }
 
+input.flat:disabled {
+	border-radius: none;
+	border: 2px solid #bdc3c7;
+	color: #34495e;
+	padding: 8px 25px;
+	font-size: 15px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+input.nob:disabled {
+	border-radius: none;
+	border: none;
+	color: #34495e;
+	padding: 8px 25px;
+	font-size: 15px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
 input.nob {
 	border-radius: none;
 	border: none;
