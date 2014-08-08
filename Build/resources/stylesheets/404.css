@@ -11,7 +11,7 @@ html {
     font-family: "Open Sans";
 	src: "//fonts.googleapis.com/css?family=Open Sans:300italic,300,400italic,400,600italic,600,700italic,700,800italic,800"	
     -webkit-text-size-adjust: auto;
-	-ms-text-size-adjust: auto;	
+	-ms-text-size-adjust: auto;
 }
 }
 
@@ -22,17 +22,6 @@ html {
     -webkit-text-size-adjust: auto;
 	-ms-text-size-adjust: auto;
 }
-}
-
-@font-face {
-	font-family: 'Flat-UI-Icons-24';
-	src:url('fonts/Flat-UI-Icons-24.eot');
-	src:url('fonts/Flat-UI-Icons-24.eot?#iefix') format('embedded-opentype'),
-		url('fonts/Flat-UI-Icons-24.woff') format('woff'),
-		url('fonts/Flat-UI-Icons-24.ttf') format('truetype'),
-		url('fonts/Flat-UI-Icons-24.svg#Flat-UI-Icons-24') format('svg');
-	font-weight: normal;
-	font-style: normal;
 }
 
 body {
@@ -49,15 +38,40 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 60px;
+	margin-bottom: 30px;
+}
+
+#text-logo {
+	width: 60%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-bottom: 40px;
 }
 
 h1,
+h2,
+h3,
 h4,
 h5,
 h6 {
 	font-family: "Open Sans";
 	text-align: center;
 	color: #34495e;
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: 200;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+h3 {
+	font-weight: 400;
 }
 
 #title {
@@ -81,11 +95,6 @@ h6 {
 	color: #34495e;
 	margin-left: 225px;
 	margin-bottom: 25px;
-}
-
-h3 {
-	font-family: sans-serif;
-	color: #34495e;
 }
 
 .arrow-down {
@@ -345,27 +354,20 @@ h3 {
 	font-family: "Open Sans";
     color: #fff;
     display: inline-block;
-    padding: 5px 10px;
+    padding: 10px 5px;
     background-color: #38a8f9;
     -moz-border-radius: 5px;
     -ie-border-radius: 5px;
     -webkit-border-radius: 5px;
     -o-border-radius: 5px;
     border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    word-wrap: break-word;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 0 2px 0 #3498db;
+    box-shadow: 0 2px 0 #3498db;
 }
-
-/*.toolTip p {
-	padding: 10px;
-	background-color: #38a8f9;
-	-moz-border-radius: 5px;
-	-ie-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	-o-border-radius: 5px;
-	border-radius: 5px;
-	margin-left: 225px;
-	width: ;
-}
-*/
 
 input {
 	border-radius: 5px;
@@ -491,6 +493,7 @@ input[type='checkbox'] {
 	display: block;
 	padding:  25px 100px;
 	color: #fff;
+	margin-top: 20px;
 }
 
 .align-right {
@@ -527,4 +530,29 @@ input[type='checkbox'] {
 .github:hover {
 	text-decoration: underline;
 	color: #fff;
+}
+
+/*Custom Select Properties*/
+
+select {
+	background-color: #38a8f9;
+	border: 1px solid #38a8f9;
+	-webkit-appearance: none;
+	padding: 15px 100px 15px 15px;
+	font-family: "Open Sans";
+	color: #ffffff;
+	border-radius: 5px;
+}
+
+input[type=submit] {
+	width: 60px;
+	height: 44px;
+}
+
+.password {
+	margin-top: 30px;
+}
+
+.password-field {
+	margin-bottom: 0px;
 }
