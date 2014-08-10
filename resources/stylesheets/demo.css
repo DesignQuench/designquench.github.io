@@ -85,6 +85,10 @@ h3 {
 	padding-left: 225px;
 }
 
+#button-well{
+	margin-top: 25px;
+}
+
 .btn {
 	background-color: #bdc3c7;
 	-webkit-border-top-left-radius: 5px;

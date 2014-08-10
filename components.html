@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Phoenix UI - Empowering web design.</title>
+    <title>Thirst - Empowering web design.</title>
     <!-- @reload -->
     <link href="http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:100italic,100,300italic,300,400italic,400,700italic,700,900italic,900" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,400italic,400,600italic,600,700italic,700,800italic,800" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href='resources/stylesheets/demo.css'>
-    <link rel="icon" href="https://raw.githubusercontent.com/PhoenixUI/PhoenixUI/master/resources/img/favicon.ico" type="image/icon">
+    <link rel="icon" href="resources/img/favicon.ico" type="image/icon">
   </head>
   <body>
     <!-- <a href="https://github.com/jakerm2002/PhoenixUI"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://raw.githubusercontent.com/jakerm2002/PhoenixUI/master/app/img/forkme_right_blue_noshadow.png" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"></a> -->
-    <img id="text-logo" src="resources/img/phoenix-text-logo.png"/>
+    <img id="text-logo" src="resources/img/thirst-text.png"/>
     <div class="component-titles">
       <a name="buttons"></a>
       <h2>
@@ -19,18 +19,15 @@
       </h2>
     </div>
     <div class="component">
-      <a class="btn" href="#">Generic Button</a>
-      <a class="btnp" href="#">Primary Button</a>
-      <a class="btns" href="#">Success Button</a>
-      <a class="btnw" href="#">Warning Button</a>
-      <a class="btnd" href="#">Danger Button</a>
+      <a class="btn">Generic Button</a>
+      <a class="btnp">Primary Button</a>
+      <a class="btns">Success Button</a>
+      <a class="btnw">Warning Button</a>
+      <a class="btnd">Danger Button</a>
       <a class="btn-dis">Disabled Button</a>
     </div>
-    <div class="component-titles">
-      <h3>Button Code</h3>
-    </div>
     <div class="component">
-      <div class="well">
+      <div class="well" id="button-well">
         <div class="code-sample">
           <p>&lt;a class="btn" href="#">Generic Button&lt;/a&gt;</p>
           <p>&lt;a class="btnp" href="#">Primary Button&lt;/a&gt;</p>
@@ -63,6 +60,15 @@
         <br>
         <div class="tooltip arrow-bottom">
           This is an even longer tooltip. This one has three lines.
+        </div>
+      </div>
+    </div>
+    <div class="component">
+      <div class="well">
+        <div class="code-sample">
+          <p>&lt;div class="tooltip arrow-top"&gt;This is a tooltip.&lt;/div&gt;</p>
+          <p>&lt;div class="tooltip arrow-right"&gt;This is a longer tooltip. This one has two lines.&lt;/div&gt;</p>
+          <p>&lt;div class="tooltip arrow-bottom"&gt;This is an even longer tooltip. This one has three lines.&lt;/div&gt;</p>
         </div>
       </div>
     </div>
