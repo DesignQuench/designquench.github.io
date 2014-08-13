@@ -4,8 +4,6 @@
 Based on a work at https://github.com/PhoenixUI/PhoenixUI.
 */
 
-@import "bourbon/bourbon";
-
 body {
 	font-family: "Open Sans";
 	, Helvetica, Arial, sans-serif;
