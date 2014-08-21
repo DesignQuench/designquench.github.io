@@ -803,12 +803,12 @@ input[type=checkbox]:checked + label span {
 	background-position: 0px -46px;
 }
 
-.arrow-top {
+.top.tooltip {
 	position: relative;
 	background: #38a8f9;
 	margin-top: 20px;
 }
-.arrow-top:after, .arrow:before {
+.top.tooltip:after, .t-top:before {
 	bottom: 100%;
 	left: 50%;
 	border: solid transparent;
@@ -819,26 +819,25 @@ input[type=checkbox]:checked + label span {
 	pointer-events: none;
 }
 
-.arrow-top:after {
+.top.tooltip:after {
 	border-color: rgba(56, 168, 249, 0);
 	border-bottom-color: #38a8f9;
 	border-width: 10px;
 	margin-left: -10px;
 }
 
-.arrow-top:before {
+.top.tooltip:before {
 	border-color: rgba(0, 0, 0, 0);
-	border-bottom-color: #;
 	border-width: 16px;
 	margin-left: -16px;
 }
 
-.arrow-bottom {
+.bottom.tooltip {
 	position: relative;
 	background: #38a8f9;
 	margin-bottom: 20px;
 }
-.arrow-bottom:after, .arrow_box:before {
+.bottom.tooltip:after, .t-bottom:before {
 	top: 100%;
 	left: 50%;
 	border: solid transparent;
@@ -849,25 +848,24 @@ input[type=checkbox]:checked + label span {
 	pointer-events: none;
 }
 
-.arrow-bottom:after {
+.bottom.tooltip:after {
 	border-color: rgba(56, 168, 249, 0);
 	border-top-color: #38a8f9;
 	border-width: 10px;
 	margin-left: -10px;
 }
-.arrow-bottom:before {
+.bottom.tooltip:before {
 	border-color: rgba(0, 0, 0, 0);
-	border-top-color: #;
 	border-width: 16px;
 	margin-left: -16px;
 }
-	
-.arrow-left {
+
+.left.tooltip {
 	position: relative;
 	background: #38a8f9;
 	margin-left: 20px;
 }
-.arrow-left:after, .arrow_box:before {
+.left.tooltip:after, .t-left:before {
 	right: 100%;
 	top: 50%;
 	border: solid transparent;
@@ -878,25 +876,24 @@ input[type=checkbox]:checked + label span {
 	pointer-events: none;
 }
 
-.arrow-left:after {
+.left.tooltip:after {
 	border-color: rgba(56, 168, 249, 0);
 	border-right-color: #38a8f9;
 	border-width: 10px;
 	margin-top: -10px;
 }
-.arrow-left:before {
+.left.tooltip:before {
 	border-color: rgba(0, 0, 0, 0);
-	border-right-color: #;
 	border-width: 16px;
 	margin-top: -16px;
 }
 
-.arrow-right {
+.right.tooltip {
 	position: relative;
 	background: #38a8f9;
 	margin-right: 20px;
 }
-.arrow-right:after, .arrow_box:before {
+.right.tooltip:after, .right:before {
 	left: 100%;
 	top: 50%;
 	border: solid transparent;
@@ -907,15 +904,14 @@ input[type=checkbox]:checked + label span {
 	pointer-events: none;
 }
 
-.arrow-right:after {
+.right.tooltip:after {
 	border-color: rgba(56, 168, 249, 0);
 	border-left-color: #38a8f9;
 	border-width: 10px;
 	margin-top: -10px;
 }
-.arrow-right:before {
+.right.tooltip:before {
 	border-color: rgba(0, 0, 0, 0);
-	border-left-color: #;
 	border-width: 10px;
 	margin-top: -10px;
 }
