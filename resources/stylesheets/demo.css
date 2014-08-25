@@ -675,10 +675,10 @@ progress::-moz-progress-bar {
 }
 
 #bottom-bar {
-	background-color: #666666;
+	background-color: #ecf0f1;
 	display: block;
 	padding: 25px 100px;
-	color: #fff;
+	color: #34495e;
 	margin-top: 20px;
 }
 
@@ -688,34 +688,49 @@ progress::-moz-progress-bar {
 
 .email {
 	text-decoration: none;
-	color: #fff;
+	color: #34495e;
 }
 
 .email:hover {
-	text-decoration: underline;
-	color: #fff;
+	text-decoration: none;
+	color: #677C91;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
 }
 
 .twitter {
 	text-decoration: none;
-	color: #fff;
+	color: #34495e;
 	margin-left: 20px;
 }
 
 .twitter:hover {
-	text-decoration: underline;
-	color: #fff;
+	text-decoration: none;
+	color: #677C91;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
 }
 
 .github {
 	text-decoration: none;
-	color: #fff;
+	color: #34495e;
 	margin-left: 20px;
 }
 
 .github:hover {
-	text-decoration: underline;
-	color: #fff;
+	text-decoration: none;
+	color: #677C91;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
 }
 
 /*Custom Select Properties*/
@@ -1009,4 +1024,124 @@ nav.flat {
     to {background-color: #FF6656;}
     from {background-color: #FF6656;}
     to {background-color: #e74c3c;}
+}
+
+#blue {
+	background-color: #38a8f9;
+	display: inline-block;
+	width: 68px;
+	padding: 20px 50px 20px 20px;
+	color: #ffffff;
+}
+
+#darkblue {
+	background-color: #1F8FE0;
+	display: inline-block;
+	width: 68px;
+	padding: 20px 50px 20px 20px;
+	color: #ffffff;
+}
+
+#lightblue {
+	background-color: #52C2FF;
+	display: inline-block;
+	width: 68px;
+	padding: 20px 50px 20px 20px;
+	color: #ffffff;
+}
+
+#green {
+	background-color: #2ecc71;
+	display: inline-block;
+	width: 68px;
+	padding: 20px 50px 20px 20px;
+	color: #ffffff;
+}
+
+#darkgreen {
+	background-color: #15B358;
+	display: inline-block;
+	width: 68px;
+	padding: 20px 50px 20px 20px;
+	color: #ffffff;
+}
+
+#lightgreen {
+	background-color: #48E68B;
+	display: inline-block;
+	width: 68px;
+	padding: 20px 50px 20px 20px;
+	color: #ffffff;
+}
+
+#yellow {
+	background-color: #FFD823;
+	display: inline-block;
+	width: 68px;
+	padding: 20px 50px 20px 20px;
+	color: #ffffff;
+}
+
+#darkyellow {
+	background-color: #E6BF0A;
+	display: inline-block;
+	width: 68px;
+	padding: 20px 50px 20px 20px;
+	color: #ffffff;
+}
+
+#lightyellow {
+	background-color: #FFF23D;
+	display: inline-block;
+	width: 68px;
+	padding: 20px 50px 20px 20px;
+	color: #ffffff;
+}
+
+#red {
+	background-color: #e74c3c;
+	display: inline-block;
+	width: 68px;
+	padding: 20px 50px 20px 20px;
+	color: #ffffff;
+}
+
+#darkred {
+	background-color: #CE3323;
+	display: inline-block;
+	width: 68px;
+	padding: 20px 50px 20px 20px;
+	color: #ffffff;
+}
+
+#lightred {
+	background-color: #FF6656;
+	display: inline-block;
+	width: 68px;
+	padding: 20px 50px 20px 20px;
+	color: #ffffff;
+}
+
+#gray {
+	background-color: #bdc3c7;
+	display: inline-block;
+	width: 68px;
+	padding: 20px 50px 20px 20px;
+	color: #ffffff;
+}
+
+#darkgray {
+	background-color: #A1A6A9;
+	display: inline-block;
+	width: 68px;
+	padding: 20px 50px 20px 20px;
+	color: #ffffff;
+}
+
+#lightgray {
+	background-color: #D7DDE1;
+	display: inline-block;
+	width: 68px;
+	padding: 20px 50px 20px 20px;
+	color: #ffffff;
 }
