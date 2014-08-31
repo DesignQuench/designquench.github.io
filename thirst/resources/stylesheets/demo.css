@@ -6,14 +6,12 @@ Based on a work at https://github.com/PhoenixUI/PhoenixUI.
 
 body {
 	font-family: "Open Sans", Helvetica, Arial, sans-serif;
-	background-color: #ffffff;
 	margin: 0px;
 }
 
 #logo {
 	width: 15%;
 	display: block;
-	display: table;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 45px;
@@ -34,7 +32,7 @@ h1,
 h4,
 h5,
 h6 {
-	font-family: ""Open Sans"";
+	font-family: "Open Sans";
 	text-align: center;
 	color: #34495e;
 }
@@ -106,7 +104,7 @@ h3 {
 	text-indent: 0;
 	display: inline-block;
 	color: #ffffff;
-	font-family: ""Open Sans"";
+	font-family: "Open Sans";
 	font-size: 15px;
 	font-style: normal;
 	padding: 11px 30px;
@@ -137,7 +135,6 @@ h3 {
 }
 
 .btn.g:active {
-	position: relative;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
@@ -153,7 +150,6 @@ h3 {
 }
 
 .btn.p:active {
-	position: relative;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
@@ -174,7 +170,6 @@ h3 {
 }
 
 .btn.s:active {
-	position: relative;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
@@ -194,7 +189,6 @@ h3 {
 }
 
 .btn.d:active {
-	position: relative;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
@@ -215,7 +209,6 @@ h3 {
 }
 
 .btn.w:active {
-	position: relative;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
@@ -286,7 +279,7 @@ input.flat-nob {
 }
 
 input.flat-nob:focus {
-  -webkit-box-shadow; none;
+  -webkit-box-shadow: none;
 	box-shadow: none;
 }
 
@@ -318,7 +311,6 @@ input.dis {
 }
 
 input.flat:disabled {
-	border-radius: none;
 	border: 2px solid #bdc3c7;
 	color: #34495e;
 	-webkit-box-shadow: none;
@@ -326,7 +318,6 @@ input.flat:disabled {
 }
 
 input.nob:disabled {
-	border-radius: none;
 	border: none;
 	color: #34495e;
 	-webkit-box-shadow: none;
@@ -334,7 +325,6 @@ input.nob:disabled {
 }
 
 input.nob {
-	border-radius: none;
 	border: none;
 	color: #34495e;
 	-webkit-box-shadow: none;
@@ -342,7 +332,6 @@ input.nob {
 }
 
 input.error-nob {
-	border-radius: none;
 	border: none;
 	color: #e74c3c;
 	-webkit-box-shadow: none;
@@ -350,7 +339,6 @@ input.error-nob {
 }
 
 input.success-nob {
-	border-radius: none;
 	border: none;
 	color: #2ecc71;
 	-webkit-box-shadow: none;
@@ -358,7 +346,6 @@ input.success-nob {
 }
 
 input.warning-nob {
-	border-radius: none;
 	border: 2px;
 	color: #f1c40f;
 	-webkit-box-shadow: none;
@@ -366,7 +353,6 @@ input.warning-nob {
 }
 
 input.error-flat-nob {
-	border-radius: none;
 	border: none;
 	color: #e74c3c;
 	-webkit-box-shadow: none;
@@ -374,7 +360,6 @@ input.error-flat-nob {
 }
 
 input.success-flat-nob {
-	border-radius: none;
 	border: none;
 	color: #2ecc71;
 	-webkit-box-shadow: none;
@@ -382,7 +367,6 @@ input.success-flat-nob {
 }
 
 input.warning-flat-nob {
-	border-radius: none;
 	border: none;
 	color: #f1c40f;
 	-webkit-box-shadow: none;
@@ -495,7 +479,6 @@ input.warning-flat:focus {
 }
 
 input.error-flat-nob:focus {
-	border-radius: none;
 	border: 2px solid #FF6656;
 	color: #e74c3c;
 	-webkit-box-shadow: none;
@@ -503,7 +486,6 @@ input.error-flat-nob:focus {
 }
 
 input.success-flat-nob:focus {
-	border-radius: none;
 	border: 2px solid #48E68B;
 	color: #2ecc71;
 	-webkit-box-shadow: none;
@@ -511,7 +493,6 @@ input.success-flat-nob:focus {
 }
 
 input.warning-flat-nob:focus {
-	border-radius: none;
 	border: 2px solid #FFF23D;
 	color: #f1c40f;
 	-webkit-box-shadow: none;
@@ -612,7 +593,7 @@ select {
 	border: 1px solid #38a8f9;
 	-webkit-appearance: none;
 	padding: 15px 100px 15px 15px;
-	font-family: ""Open Sans"";
+	font-family: "Open Sans";
 	color: #ffffff;
 	border-radius: 5px;
 }
@@ -863,27 +844,36 @@ nav.flat {
 	margin-bottom: 10px;
 	display: inline-block;
 	width: 200px;
-	padding-right: 10px
+	padding-right: 10px;
 }
 
 .alert.p {
 	background-color: #38a8f9;
+	-webkit-box-shadow: inset 0 -2px 0 #1F8FE0;
+	box-shadow: inset 0 -2px 0 #1F8FE0;
 }
 
 .alert.s {
-	background-color: #2ecc71;
+	background-color: #23CC71;
+   -webkit-box-shadow: inset 0 -2px 0 #15B358;
+	box-shadow: inset 0 -2px 0 #15B358;
 }
 
 .alert.w {
 	background-color: #FFD823;
+	-webkit-box-shadow: inset 0 -2px 0 #E6BF0A;
+	box-shadow: inset 0 -2px 0 #E6BF0A;
 }
 
 .alert.e {
 	background-color: #e74c3c;
-	-webkit-animation: blink 0.5s;
-	-webkit-animation-iteration-count: infinite;
-	animation: blink 0.5s;
-	animation-iteration-count: infinite;
+	-webkit-box-shadow: inset 0 -2px 0 #CE3323;
+	box-shadow: inset 0 -2px 0 #CE3323;
+}
+
+.alert.flat {
+	-webkit-box-shadow: none;
+	box-shadow: none;
 }
 
 @keyframes blink {
@@ -1016,4 +1006,45 @@ nav.flat {
 	width: 68px;
 	padding: 20px 50px 20px 20px;
 	color: #ffffff;
+}
+
+.notification {
+    border-radius: 5px;
+    display: inline-block;
+    padding: 15px 80px 15px 10px;
+    margin-bottom: 10px;
+    width: 100px;
+}
+
+.notification.p {
+    background-color: #38a8f9;
+    -webkit-box-shadow: inset 0 -2px 0 #1F8FE0;
+	box-shadow: inset 0 -2px 0 #1F8FE0;
+}
+
+.notification.s {
+   background-color: #23CC71;
+   -webkit-box-shadow: inset 0 -2px 0 #15B358;
+	 box-shadow: inset 0 -2px 0 #15B358;
+}
+
+.notification.w {
+   background-color: #FFD823;
+   -webkit-box-shadow: inset 0 -2px 0 #E6BF0A;
+	box-shadow: inset 0 -2px 0 #E6BF0A;
+}
+
+.notification.e {
+   background-color: #E74C3C;
+   -webkit-box-shadow: inset 0 -2px 0 #CE3323;
+	box-shadow: inset 0 -2px 0 #CE3323;
+    -webkit-animation: blink 0.5s;
+	-webkit-animation-iteration-count: infinite;
+	animation: blink 0.5s;
+	animation-iteration-count: infinite;
+}
+
+.notification.flat {
+	-webkit-box-shadow: none;
+	
 }
