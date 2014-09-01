@@ -1,0 +1,2 @@
+RewriteRule ^thirst$ thirst.html [L]
+RewriteRule ^components$ components.html [L]
