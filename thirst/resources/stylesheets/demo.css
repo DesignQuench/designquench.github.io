@@ -216,11 +216,10 @@ h3 {
 .well {
 	padding: 10px;
 	padding-left: 20px;
-	;
 	margin-top: 5px;
 	margin-bottom: 20px;
-	background-color: #303030;
-	color: #ffffff;
+	background-color: #f3f3f3;
+	color: #34495e;
 	font-family: monospace;
 	border-radius: 5px;
 	display: inline-block;
