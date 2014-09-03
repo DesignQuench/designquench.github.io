@@ -40,20 +40,20 @@ h6 {
 #title {
 	font-size: 400%;
 	margin-bottom: 0px;
-	font-family: "Helvetica Neue";
+	font-family: "Helvetica";
 	text-align: center;
 	color: #34495e;
 }
 
 #tagline {
-	font-family: "Helvetica Neue";
+	font-family: "Helvetica";
 	text-align: center;
 	color: #717171;
 	margin-bottom: 45px;
 }
 
 .component-titles {
-	font-family: "Helvetica Neue";
+	font-family: "Helvetica";
 	text-align: left;
 	color: #34495e;
 	margin-left: 150px;
@@ -240,7 +240,7 @@ h3 {
 
 #phui-vs {
 	margin-left: 240px;
-	font-family: "Helvetica Neue";
+	font-family: "Helvetica";
 }
 
 .tooltip {
