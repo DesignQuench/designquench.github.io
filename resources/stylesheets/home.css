@@ -93,9 +93,6 @@ h6 {
 	padding: 11px 30px;
 	text-decoration: none;
 	text-align: center;
-	margin-left: auto;
-	margin-right: 25px;
-	margin-bottom: 20px;
 }
 
 .btn:hover {
@@ -455,6 +452,11 @@ input[type=submit] {
 	border: 1px solid #d9dcdf;
 	font-family: Consolas, Courier, monospace;
 	color: #757575;
+}
+
+#download-btn {
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .code-stylesheet {
