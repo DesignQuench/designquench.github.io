@@ -1170,6 +1170,7 @@ nav.flat {
 }
 
 .notification.flat {
+	box-shadow: none;
 	-webkit-box-shadow: none;
 	
 }
