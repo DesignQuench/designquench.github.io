@@ -225,6 +225,118 @@ h3 {
 	box-shadow: none;
 }
 
+.btn.flat {
+	box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+.btn.flat:active {
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+
+.btn.g.flat:active {
+	background-color: #bdc3c7;
+}
+
+.btn.p.flat:active {
+	background-color: #38a8f9;
+}
+
+.btn.s.flat:active {
+	background-color: #2ecc71;
+}
+
+.btn.d.flat:active {
+	background-color: #e74c3c;
+}
+
+.btn.w.flat:active {
+	background-color: #FFD823;
+}
+
+.btnalert {
+	margin-right: 0px;
+	margin-top: 5px;
+	padding: 10px 10px;
+}
+
+.btnalert.sec {
+	box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+.btn.p.btnalert.pri.flat {
+	background-color: #52C2FF;
+}
+
+.btn.p.btnalert.pri.flat:active {
+	background-color: #38a8f9;
+}
+
+.btn.p.btnalert.sec:hover {
+	background-color: #38a8f9;
+}
+
+.btn.p.btnalert.sec:active {
+	color: #D7DDE1;
+}
+
+.btn.s.btnalert.pri.flat {
+	background-color: #48E68B;
+}
+
+.btn.s.btnalert.pri.flat:active {
+	background-color: #2ECC71;
+}
+
+.btn.s.btnalert.sec:hover {
+	background-color: #2ecc71;
+}
+
+.btn.s.btnalert.sec:active {
+	color: #D7DDE1;
+}
+
+.btn.w.btnalert.pri.flat {
+	background-color: #FFF23D;
+}
+
+.btn.w.btnalert.pri.flat:active {
+	background-color: #FFD823;
+}
+
+.btn.w.btnalert.sec:hover {
+	background-color: #FFD823;
+}
+
+.btn.w.btnalert.sec:active {
+	color: #D7DDE1;
+}
+
+.btn.e.btnalert.pri.flat {
+	background-color: #FF6656;
+}
+
+.btn.e.btnalert.pri.flat:active {
+	background-color: #E74C3C;
+}
+
+.btn.e.btnalert.sec:hover {
+	background-color: #E74C3C;
+}
+
+.btn.e.btnalert.sec:active {
+	color: #D7DDE1;
+}
+
+.btn.p.not {
+	padding: 1px;
+}
+
 .well {
 	padding: 10px;
 	padding-left: 20px;
@@ -854,7 +966,7 @@ nav.flat {
 	border-radius: 5px;
 	margin-bottom: 10px;
 	display: inline-block;
-	width: 200px;
+	width: 555px;
 	padding-right: 10px;
 	color: #2d2d2d;
 }
