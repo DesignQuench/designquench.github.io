@@ -358,10 +358,10 @@ input[type='checkbox'] {
 }
 
 #bottom-bar {
-	background-color: #666666;
+	background-color: #ecf0f1;
 	display: block;
-	padding:  25px 100px;
-	color: #fff;
+	padding: 25px 100px;
+	color: #34495e;
 }
 
 .align-right {
@@ -370,34 +370,47 @@ input[type='checkbox'] {
 
 .email {
 	text-decoration: none;
-	color: #fff;
+	color: #34495e;
 }
 
 .email:hover {
 	text-decoration: underline;
-	color: #fff;
+	color: #677C91;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
 }
 
 .twitter {
 	text-decoration: none;
-	color: #fff;
+	color: #34495e;
 	margin-left: 20px;
 }
 
 .twitter:hover {
-	text-decoration: underline;
-	color: #fff;
+	color: #677C91;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
 }
 
 .github {
 	text-decoration: none;
-	color: #fff;
+	color: #34495e;
 	margin-left: 20px;
 }
 
 .github:hover {
-	text-decoration: underline;
-	color: #fff;
+	color: #677C91;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
 }
 
 /*Custom Select Properties*/
