@@ -208,6 +208,8 @@ h3 {
 	background-color: #95a5a6;
 	color: #e6e6e6;
 	margin-top: 20px;
+	pointer-events: none;
+	cursor: not-allowed;
 }
 
 .btn.w {
