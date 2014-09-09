@@ -451,6 +451,7 @@ input.dis {
 	border: 2px solid #bdc3c7;
 	-webkit-box-shadow: 0 2px #A1A6A9;
 	box-shadow: 0 2px #A1A6A9;
+	background-color: #ffffff;
 }
 
 input.flat:disabled {
@@ -458,6 +459,7 @@ input.flat:disabled {
 	color: #34495e;
 	-webkit-box-shadow: none;
 	box-shadow: none;
+	background-color: #ffffff;
 }
 
 input.nob:disabled {
@@ -465,6 +467,7 @@ input.nob:disabled {
 	color: #34495e;
 	-webkit-box-shadow: none;
 	box-shadow: none;
+	background-color: #ffffff;
 }
 
 input.nob {
