@@ -499,7 +499,11 @@ input.dis {
 	border: 2px solid #bdc3c7;
 	-webkit-box-shadow: 0 2px #A1A6A9;
 	box-shadow: 0 2px #A1A6A9;
+<<<<<<< HEAD
 	margin-bottom: 0;
+=======
+	background-color: #ffffff;
+>>>>>>> FETCH_HEAD
 }
 
 input.flat:disabled {
@@ -507,7 +511,11 @@ input.flat:disabled {
 	color: #34495e;
 	-webkit-box-shadow: none;
 	box-shadow: none;
+<<<<<<< HEAD
 	margin-bottom: 0;
+=======
+	background-color: #ffffff;
+>>>>>>> FETCH_HEAD
 }
 
 input.nob:disabled {
@@ -515,7 +523,11 @@ input.nob:disabled {
 	color: #34495e;
 	-webkit-box-shadow: none;
 	box-shadow: none;
+<<<<<<< HEAD
 	margin-bottom: 0;
+=======
+	background-color: #ffffff;
+>>>>>>> FETCH_HEAD
 }
 
 input.nob {
@@ -1270,4 +1282,9 @@ nav.flat {
 .notification.flat {
 	box-shadow: none;
 	-webkit-box-shadow: none;
+<<<<<<< HEAD
 }
+=======
+	
+}
+>>>>>>> FETCH_HEAD

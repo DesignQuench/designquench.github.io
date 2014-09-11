@@ -44,6 +44,13 @@ h3 {
 	color: #34495e;
 }
 
+#tagline {
+	font-family: "Helvetica";
+	text-align: center;
+	color: #717171;
+	margin-bottom: 45px;
+}
+
 .btn {
 	border-radius: 5px;
 	-webkit-border-radius: 5px;
