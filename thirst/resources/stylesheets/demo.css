@@ -84,37 +84,37 @@ h6 {
 	
 }
 
-#botalert {
+.botalert {
 	margin-bottom: 0 !important;
 }
 
-#botnotifications {
+.botnotifications {
 	margin-bottom: 0 !important;
 }
 
-#botprogress {
+.botprogress {
 	margin-top: 0 !important;
 	margin-bottom: 0 !important;
 	padding-top: 20px;
 }
 
-#botselect {
+.botselect {
 	margin-top: 0 !important;
 	margin-bottom: 0 !important;
 	padding-top: 20px;
 }
 
-#botnavbar {
+.botnavbar {
 	margin-top: 0 !important;
 	margin-bottom: 0 !important;
 	padding-top: 20px;
 }
 
-#botmarnavbar {
+.botmarnavbar {
 	margin-bottom: 0 !important;
 }
 
-#botpalette {
+.botpalette {
 	margin-top: 0 !important;
 	margin-bottom: 0 !important;
 	padding-top: 20px;
