@@ -7,13 +7,342 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href='resources/stylesheets/demo.css'>
     <script src="//fast.eager.io/YW7bQeeQS9.js"></script>
-    <link rel="icon" href="resources/img/favicon.ico" type="image/icon">
+    <link rel="icon" href="/resources/img/favicon.ico" type="image/icon">
 </head>
 <body>
 <div align="center">
-<img href="/resources/img/thirst-text.png" alt="Thirst Logo">
+<img id="text-logo" src="/resources/img/thirst-text.png" alt="Thirst Logo">
 <h2 id="tagline">The complete guide to Thirst code.</h2>
 </div>
+<div class="component-titles">
+      <h2 id="buttons">
+        Buttons
+      </h2>
+    </div>
+    <div class="component">
+      btn g
+      <br>
+      &#60;a class="btn g">Generic Button&#60;/a&#62;
+      <br>
+      <a href="#fakelink" class="btn g">Generic Button</a>
+      <br>
+      btn p
+      <br>
+      &#60;a class="btn g">Primary Button&#60;/a&#62;
+      <br>
+      <a href="#fakelink" class="btn p">Primary Button</a>
+      <br>
+      btn s
+      <br>
+      &#60;a class="btn g">Success Button&#60;/a&#62;
+      <br>
+      <a href="#fakelink" class="btn s">Success Button</a>
+      <br>
+      btn w
+      <br>
+      &#60;a class="btn g">Warning Button&#60;/a&#62;
+      <br>
+      <a href="#fakelink" class="btn w">Warning Button</a>
+      <br>
+      btn d
+      <br>
+      &#60;a class="btn g">Danger Button&#60;/a&#62;
+      <br>
+      <a href="#fakelink" class="btn d">Danger Button</a>
+      <br>
+      btn dis
+      <br>
+      &#60;a class="btn g">Disabled Button&#60;/a&#62;
+      <br>
+      <a class="btn dis">Disabled Button</a>
+    </div>
+    <!--
+      <div class="component-titles">
+        <h2>Checkboxes</h2>
+      </div>
+      <div class="components">
+        <input type="checkbox" id="c1" name="cc" />
+        <label for="c1"><span></span>Check Box 1</label>
+        -->
+    <div class="component-titles">
+      <h2 id="popovers">Popovers</h2>
+    </div>
+    <div class="component">
+      <div class="popover top">
+        This is a popover.
+      </div>
+      <br>
+      <div class="popover right">
+        This is a longer popover. This one has two lines.
+      </div>
+      <br>
+      <div class="popover bottom" id="bottomtool">
+        This is an even longer popover. This one has three lines.
+      </div>
+    </div>
+    <div class="component-titles">
+      <h2 id="inputs">Input</h2>
+    </div>
+    <div class="component">
+      <input type="text" placeholder="Input"/>
+      <input type="text" class="flat" placeholder="Flat"/>
+      <input type="text" class="nob" placeholder="No Border"/>
+      <input type="text" class="flat-nob" placeholder="Flat No Border"/><br>
+      <input type="text" class="primary" placeholder="Primary"/>
+      <input type="text" class="primary-flat" placeholder="Primary Flat"/>
+      <input type="text" class="primary-nob" placeholder="Primary No Border"/>
+      <input type="text" class="primary-flat-nob" placeholder="Primary Flat No Border"/><br>
+      <input type="text" class="success" placeholder="Success"/>
+      <input type="text" class="success-flat" placeholder="Success Flat"/>
+      <input type="text" class="success-nob" placeholder="Success No Border"/>
+      <input type="text" class="success-flat-nob" placeholder="Success Flat No Border"/><br>
+      <input type="text" class="warning" placeholder="Warning"/>
+      <input type="text" class="warning-flat" placeholder="Warning Flat"/>
+      <input type="text" class="warning-nob" placeholder="Warning No Border"/>
+      <input type="text" class="warning-flat-nob" placeholder="Warning Flat No Border"/><br>
+      <input type="text" class="error" placeholder="Error"/>
+      <input type="text" class="error-flat" placeholder="Error Flat"/>
+      <input type="text" class="error-nob" placeholder="Error No Border"/>
+      <input type="text" class="error-flat-nob" placeholder="Error Flat No Border"/><br>
+      <input type="text" class="dis" placeholder="Disabled" disabled/>
+      <input type="text" class="flat" placeholder="Disabled Flat" disabled/>
+      <input type="text" class="nob" placeholder="Disabled No Border" disabled/><br>
+    </div>
+    <div class="component-titles">
+          <h2 id="alerts">Alerts</h2>
+        </div>
+        <div class="component">
+          <div class="alert p">
+            <strong>Hello!</strong> This is a primary class alert.
+          </div>
+          <div class="alert p flat">
+            <strong>Hello!</strong> This is a flat primary class alert.
+          </div>
+          <br>
+          <div class="alert p">
+          <strong>Hello!</strong> <br> This is a primary class alert.
+          <br>
+          <a href="#fakelink" class="btn p btnalert flat pri">
+          Do something!
+          </a>
+          <a href="#fakelink" class="btn p btnalert sec">
+          Ignore it.
+          </a>
+          </div>
+          <div class="alert p flat">
+          <strong>Hello!</strong> <br> This is a flat primary class alert.
+          <br>
+          <a href="#fakelink" class="btn p btnalert flat pri">
+          Do something!
+          </a>
+          <a href="#fakelink" class="btn p btnalert sec">
+          Ignore it.
+          </a>
+          </div>
+          <br>
+          <div class="alert s">
+            <strong>Hello!</strong> This is a success class alert.
+          </div>
+          <div class="alert s flat">
+            <strong>Hello!</strong> This is a flat success class alert.
+          </div>
+          <br>
+          <div class="alert s">
+          <strong>Hello!</strong> <br> This is a success class alert.
+          <br>
+          <a href="#fakelink" class="btn s btnalert flat pri">
+          Do something!
+          </a>
+          <a href="#fakelink" class="btn s btnalert sec">
+          Ignore it.
+          </a>
+          </div>
+          <div class="alert s flat">
+          <strong>Hello!</strong> <br> This is a flat success class alert.
+          <br>
+          <a href="#fakelink" class="btn s btnalert flat pri">
+          Do something!
+          </a>
+          <a href="#fakelink" class="btn s btnalert sec">
+          Ignore it.
+          </a>
+          </div>
+          <br>
+          <div class="alert w">
+            <strong>Hello!</strong> This is a warning class alert.
+          </div>
+          <div class="alert w flat">
+            <strong>Hello!</strong> This is a flat warning class alert.
+          </div>
+          <br>
+          <div class="alert w">
+          <strong>Hello!</strong> <br> This is a warning class alert.
+          <br>
+          <a href="#fakelink" class="btn w btnalert flat pri">
+          Do something!
+          </a>
+          <a href="#fakelink" class="btn w btnalert sec">
+          Ignore it.
+          </a>
+          </div>
+          <div class="alert w flat">
+          <strong>Hello!</strong> <br> This is a flat warning class alert.
+          <br>
+          <a href="#fakelink" class="btn w btnalert flat pri">
+          Do something!
+          </a>
+          <a href="#fakelink" class="btn w btnalert sec">
+          Ignore it.
+          </a>
+          </div>
+          <br>
+          <div class="alert e">
+            <strong>Hello!</strong> This is a error class alert.
+          </div>
+          <div class="alert e flat">
+            <strong>Hello!</strong> This is a flat error class alert.
+          </div>
+          <br>
+          <div class="alert e">
+          <strong>Hello!</strong> <br> This is a error class alert.
+          <br>
+          <a href="#fakelink" class="btn e btnalert flat pri">
+          Do something!
+          </a>
+          <a href="#fakelink" class="btn e btnalert sec">
+          Ignore it.
+          </a>
+          </div>
+          <div class="alert e flat" id="botalert">
+          <strong>Hello!</strong> <br> This is a flat error class alert.
+          <br>
+          <a href="#fakelink" class="btn e btnalert flat pri">
+          Do something!
+          </a>
+          <a href="#fakelink" class="btn e btnalert sec">
+          Ignore it.
+          </a>
+          </div>
+          </div>
+    <div class="component-titles">
+        <h2 id="notifications">Notifications</h2>
+    </div>
+    <div class="component">
+    <div class="notification g">
+         Generic
+    </div>
+    <div class="notification g flat">
+         Generic
+    </div>
+    <br>
+    <div class="notification p">
+         Primary
+    </div>
+        <div class="notification p flat">
+         Primary
+    </div>
+    <br>
+    <div class="notification s">
+        Success
+    </div>
+        <div class="notification s flat">
+        Success
+    </div>
+    <br>
+    <div class="notification w">
+        Warning
+    </div>
+        <div class="notification w flat">
+        Warning
+    </div>
+    <br>
+    <div class="notification e" id="botnotifications">
+        Error
+    </div>
+    <div class="notification e flat" id="botnotifications">
+        Error
+    </div>
+    </div>
+    <div class="component-titles">
+      <h2 id="progress" class="botprogress">Progress Bar</h2>
+    </div>
+    <div class="component">
+      <progress max="100" value="50"></progress>
+    </div>
+    <div class="component-titles">
+      <h2 id="select" class="botselect">Select</h2>
+    </div>
+    <div class="component">
+    </div>
+    <div class="component">
+      <select>
+        <option value="1">Option 1</option>
+        <option value="2">Option 2</option>
+        <option value="3">Option 3</option>
+        <option value="4">Option 4</option>
+      </select>
+    </div>
+    <div class="component-titles">
+      <h2 id="navbar" class="botnavbar">Navbar</h2>
+    </div>
+    <div class="component">
+      <nav class="nav-rounded-fixed">
+        <a href="#" class="navp">Thirst</a>
+        <a href="#" class="nav">Link 1</a>
+        <a href="#" class="nav">Link 2</a>
+        <a href="#" class="nav">Link 3</a>
+        <a href="#" class="nav">Link 4</a>
+      </nav>
+      <nav class="nav-rounded-stretched">
+        <a href="#" class="navp">Thirst</a>
+        <a href="#" class="nav">Link 1</a>
+        <a href="#" class="nav">Link 2</a>
+        <a href="#" class="nav">Link 3</a>
+        <a href="#" class="nav">Link 4</a>
+      </nav>
+      <nav class="nav-fixed">
+        <a href="#" class="navp">Thirst</a>
+        <a href="#" class="nav">Link 1</a>
+        <a href="#" class="nav">Link 2</a>
+        <a href="#" class="nav">Link 3</a>
+        <a href="#" class="nav">Link 4</a>
+      </nav>
+      <nav class="nav-stretched">
+        <a href="#" class="navp">Thirst</a>
+        <a href="#" class="nav">Link 1</a>
+        <a href="#" class="nav">Link 2</a>
+        <a href="#" class="nav">Link 3</a>
+        <a href="#" class="nav">Link 4</a>
+      </nav>
+      <nav class="nav-rounded-fixed flat">
+        <a href="#" class="navp">Thirst</a>
+        <a href="#" class="nav">Link 1</a>
+        <a href="#" class="nav">Link 2</a>
+        <a href="#" class="nav">Link 3</a>
+        <a href="#" class="nav">Link 4</a>
+      </nav>
+      <nav class="nav-rounded-stretched flat">
+        <a href="#" class="navp">Thirst</a>
+        <a href="#" class="nav">Link 1</a>
+        <a href="#" class="nav">Link 2</a>
+        <a href="#" class="nav">Link 3</a>
+        <a href="#" class="nav">Link 4</a>
+      </nav>
+      <nav class="nav-fixed flat">
+        <a href="#" class="navp">Thirst</a>
+        <a href="#" class="nav">Link 1</a>
+        <a href="#" class="nav">Link 2</a>
+        <a href="#" class="nav">Link 3</a>
+        <a href="#" class="nav">Link 4</a>
+      </nav>
+      <nav class="nav-stretched flat" class="botmarnavbar">
+        <a href="#" class="navp">Thirst</a>
+        <a href="#" class="nav">Link 1</a>
+        <a href="#" class="nav">Link 2</a>
+        <a href="#" class="nav">Link 3</a>
+        <a href="#" class="nav">Link 4</a>
+      </nav>
+    </div>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
