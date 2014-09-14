@@ -144,6 +144,12 @@ h3 {
 	color: #34495e;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 .arrow-down {
 	width: 0;
 	height: 0;
