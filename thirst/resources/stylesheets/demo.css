@@ -748,24 +748,28 @@ progress[value] {
 	background: #38a8f9;
 	border-radius: 5px;
 	display: inline-block;
+	vertical-align: 0em !important;
 }
 
 progress::-webkit-progress-bar {
 	background: #bdc3c7;
 	border-radius: 5px;
 	display: inline-block;
+	vertical-align: 0em !important;
 }
 
 progress::-webkit-progress-value {
 	background: #38a8f9;
 	border-radius: 5px;
 	display: inline-block;
+	vertical-align: 0em !important;
 }
 
 progress::-moz-progress-bar {
 	background: #bdc3c7;
 	border-radius: 5px;
 	display: inline-block;
+	vertical-align: 0em !important;
 }
 
 #input-well {
