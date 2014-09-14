@@ -66,6 +66,21 @@ h6 {
 	margin-bottom: 25px;
 }
 
+#botlink {
+	text-decoration: none;
+	color: #34495e;
+}
+
+#botlink:hover {
+	text-decoration: none;
+	color: #677C91;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+
 .arrow-down {
 	width: 0;
 	height: 0;
