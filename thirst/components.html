@@ -1,415 +1,415 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Thirst - Empowering web design.</title>
-    <!-- @reload -->
-    <link href="http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lato:100italic,100,300italic,300,400italic,400,700italic,700,900italic,900" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,400italic,400,600italic,600,700italic,700,800italic,800" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href='resources/stylesheets/demo.css'>
-    <script src="//fast.eager.io/YW7bQeeQS9.js"></script>
-    <link rel="icon" href="resources/img/favicon.ico" type="image/icon">
-  </head>
-  <body>
-    <nav class="nav-stretched">
-      <a href="http://designquench.tk/thirst.html" class="navp">Thirst</a>
-      <a href="#buttons" class="nav">Buttons</a>
-      <a href="#popovers" class="nav">Popovers</a>
-      <a href="#inputs" class="nav">Inputs</a>
-      <a href="#alerts" class="nav">Alerts</a>
-      <a href="#notifications" class="nav">Notifications</a>
-      <a href="#progress" class="nav">Progress Bar</a>
-      <a href="#select" class="nav">Select</a>
-      <a href="#navbar" class="nav">Navbar</a>
-      <a href="#palette" class="nav">Color Palette</a>
-    </nav>
-    <img id="text-logo" src="resources/img/thirst-text.png" alt="Thirst Logo"/>
-    <div class="component-titles">
-      <h2 id="buttons">
-        Buttons
-      </h2>
-    </div>
-    <div class="component">
-      <a href="#fakelink" class="btn g">Generic Button</a>
-      <a href="#fakelink" class="btn p">Primary Button</a>
-      <a href="#fakelink" class="btn s">Success Button</a>
-      <a href="#fakelink" class="btn w">Warning Button</a>
-      <a href="#fakelink" class="btn d">Danger Button</a>
-      <a class="btn dis">Disabled Button</a>
-    </div>
-    <!--
-      <div class="component-titles">
-        <h2>Checkboxes</h2>
-      </div>
-      <div class="components">
-        <input type="checkbox" id="c1" name="cc" />
-        <label for="c1"><span></span>Check Box 1</label>
-        -->
-    <div class="component-titles">
-      <h2 id="popovers">Popovers</h2>
-    </div>
-    <div class="component">
-      <div class="popover top">
-        This is a popover.
-      </div>
-      <br>
-      <div class="popover right">
-        This is a longer popover. This one has two lines.
-      </div>
-      <br>
-      <div class="popover bottom" id="bottomtool">
-        This is an even longer popover. This one has three lines.
-      </div>
-    </div>
-    <div class="component-titles">
-      <h2 id="inputs">Input</h2>
-    </div>
-    <div class="component">
-      <input type="text" placeholder="Input"/>
-      <input type="text" class="flat" placeholder="Flat"/>
-      <input type="text" class="nob" placeholder="No Border"/>
-      <input type="text" class="flat-nob" placeholder="Flat No Border"/><br>
-      <input type="text" class="primary" placeholder="Primary"/>
-      <input type="text" class="primary-flat" placeholder="Primary Flat"/>
-      <input type="text" class="primary-nob" placeholder="Primary No Border"/>
-      <input type="text" class="primary-flat-nob" placeholder="Primary Flat No Border"/><br>
-      <input type="text" class="success" placeholder="Success"/>
-      <input type="text" class="success-flat" placeholder="Success Flat"/>
-      <input type="text" class="success-nob" placeholder="Success No Border"/>
-      <input type="text" class="success-flat-nob" placeholder="Success Flat No Border"/><br>
-      <input type="text" class="warning" placeholder="Warning"/>
-      <input type="text" class="warning-flat" placeholder="Warning Flat"/>
-      <input type="text" class="warning-nob" placeholder="Warning No Border"/>
-      <input type="text" class="warning-flat-nob" placeholder="Warning Flat No Border"/><br>
-      <input type="text" class="error" placeholder="Error"/>
-      <input type="text" class="error-flat" placeholder="Error Flat"/>
-      <input type="text" class="error-nob" placeholder="Error No Border"/>
-      <input type="text" class="error-flat-nob" placeholder="Error Flat No Border"/><br>
-      <input type="text" class="dis" placeholder="Disabled" disabled/>
-      <input type="text" class="flat" placeholder="Disabled Flat" disabled/>
-      <input type="text" class="nob" placeholder="Disabled No Border" disabled/><br>
-    </div>
-    <div class="component-titles">
-          <h2 id="alerts">Alerts</h2>
-        </div>
-        <div class="component">
-          <div class="alert p">
-            <strong>Hello!</strong> This is a primary class alert.
-          </div>
-          <div class="alert p flat">
-            <strong>Hello!</strong> This is a flat primary class alert.
-          </div>
-          <br>
-          <div class="alert p">
-          <strong>Hello!</strong> <br> This is a primary class alert.
-          <br>
-          <a href="#fakelink" class="btn p btnalert flat pri">
-          Do something!
-          </a>
-          <a href="#fakelink" class="btn p btnalert sec">
-          Ignore it.
-          </a>
-          </div>
-          <div class="alert p flat">
-          <strong>Hello!</strong> <br> This is a flat primary class alert.
-          <br>
-          <a href="#fakelink" class="btn p btnalert flat pri">
-          Do something!
-          </a>
-          <a href="#fakelink" class="btn p btnalert sec">
-          Ignore it.
-          </a>
-          </div>
-          <br>
-          <div class="alert s">
-            <strong>Hello!</strong> This is a success class alert.
-          </div>
-          <div class="alert s flat">
-            <strong>Hello!</strong> This is a flat success class alert.
-          </div>
-          <br>
-          <div class="alert s">
-          <strong>Hello!</strong> <br> This is a success class alert.
-          <br>
-          <a href="#fakelink" class="btn s btnalert flat pri">
-          Do something!
-          </a>
-          <a href="#fakelink" class="btn s btnalert sec">
-          Ignore it.
-          </a>
-          </div>
-          <div class="alert s flat">
-          <strong>Hello!</strong> <br> This is a flat success class alert.
-          <br>
-          <a href="#fakelink" class="btn s btnalert flat pri">
-          Do something!
-          </a>
-          <a href="#fakelink" class="btn s btnalert sec">
-          Ignore it.
-          </a>
-          </div>
-          <br>
-          <div class="alert w">
-            <strong>Hello!</strong> This is a warning class alert.
-          </div>
-          <div class="alert w flat">
-            <strong>Hello!</strong> This is a flat warning class alert.
-          </div>
-          <br>
-          <div class="alert w">
-          <strong>Hello!</strong> <br> This is a warning class alert.
-          <br>
-          <a href="#fakelink" class="btn w btnalert flat pri">
-          Do something!
-          </a>
-          <a href="#fakelink" class="btn w btnalert sec">
-          Ignore it.
-          </a>
-          </div>
-          <div class="alert w flat">
-          <strong>Hello!</strong> <br> This is a flat warning class alert.
-          <br>
-          <a href="#fakelink" class="btn w btnalert flat pri">
-          Do something!
-          </a>
-          <a href="#fakelink" class="btn w btnalert sec">
-          Ignore it.
-          </a>
-          </div>
-          <br>
-          <div class="alert e">
-            <strong>Hello!</strong> This is a error class alert.
-          </div>
-          <div class="alert e flat">
-            <strong>Hello!</strong> This is a flat error class alert.
-          </div>
-          <br>
-          <div class="alert e">
-          <strong>Hello!</strong> <br> This is a error class alert.
-          <br>
-          <a href="#fakelink" class="btn e btnalert flat pri">
-          Do something!
-          </a>
-          <a href="#fakelink" class="btn e btnalert sec">
-          Ignore it.
-          </a>
-          </div>
-          <div class="alert e flat" id="botalert">
-          <strong>Hello!</strong> <br> This is a flat error class alert.
-          <br>
-          <a href="#fakelink" class="btn e btnalert flat pri">
-          Do something!
-          </a>
-          <a href="#fakelink" class="btn e btnalert sec">
-          Ignore it.
-          </a>
-          </div>
-          </div>
-    <div class="component-titles">
-        <h2 id="notifications">Notifications</h2>
-    </div>
-    <div class="component">
-    <div class="notification g">
-         Generic
-    </div>
-    <div class="notification g flat">
-         Generic
-    </div>
-    <br>
-    <div class="notification p">
-         Primary
-    </div>
-        <div class="notification p flat">
-         Primary
-    </div>
-    <br>
-    <div class="notification s">
-        Success
-    </div>
-        <div class="notification s flat">
-        Success
-    </div>
-    <br>
-    <div class="notification w">
-        Warning
-    </div>
-        <div class="notification w flat">
-        Warning
-    </div>
-    <br>
-    <div class="notification e" id="botnotifications">
-        Error
-    </div>
-    <div class="notification e flat" id="botnotifications">
-        Error
-    </div>
-    </div>
-    <div class="component-titles">
-      <h2 id="progress" class="botprogress">Progress Bar</h2>
-    </div>
-    <div class="component">
-      <progress max="100" value="50"></progress>
-    </div>
-    <div class="component-titles">
-      <h2 id="select" class="botselect">Select</h2>
-    </div>
-    <div class="component">
-    </div>
-    <div class="component">
-      <select>
-        <option value="1">Option 1</option>
-        <option value="2">Option 2</option>
-        <option value="3">Option 3</option>
-        <option value="4">Option 4</option>
-      </select>
-    </div>
-    <div class="component-titles">
-      <h2 id="navbar" class="botnavbar">Navbar</h2>
-    </div>
-    <div class="component">
-      <nav class="nav-rounded-fixed">
-        <a href="#" class="navp">Thirst</a>
-        <a href="#" class="nav">Link 1</a>
-        <a href="#" class="nav">Link 2</a>
-        <a href="#" class="nav">Link 3</a>
-        <a href="#" class="nav">Link 4</a>
-      </nav>
-      <nav class="nav-rounded-stretched">
-        <a href="#" class="navp">Thirst</a>
-        <a href="#" class="nav">Link 1</a>
-        <a href="#" class="nav">Link 2</a>
-        <a href="#" class="nav">Link 3</a>
-        <a href="#" class="nav">Link 4</a>
-      </nav>
-      <nav class="nav-fixed">
-        <a href="#" class="navp">Thirst</a>
-        <a href="#" class="nav">Link 1</a>
-        <a href="#" class="nav">Link 2</a>
-        <a href="#" class="nav">Link 3</a>
-        <a href="#" class="nav">Link 4</a>
-      </nav>
-      <nav class="nav-stretched">
-        <a href="#" class="navp">Thirst</a>
-        <a href="#" class="nav">Link 1</a>
-        <a href="#" class="nav">Link 2</a>
-        <a href="#" class="nav">Link 3</a>
-        <a href="#" class="nav">Link 4</a>
-      </nav>
-      <nav class="nav-rounded-fixed flat">
-        <a href="#" class="navp">Thirst</a>
-        <a href="#" class="nav">Link 1</a>
-        <a href="#" class="nav">Link 2</a>
-        <a href="#" class="nav">Link 3</a>
-        <a href="#" class="nav">Link 4</a>
-      </nav>
-      <nav class="nav-rounded-stretched flat">
-        <a href="#" class="navp">Thirst</a>
-        <a href="#" class="nav">Link 1</a>
-        <a href="#" class="nav">Link 2</a>
-        <a href="#" class="nav">Link 3</a>
-        <a href="#" class="nav">Link 4</a>
-      </nav>
-      <nav class="nav-fixed flat">
-        <a href="#" class="navp">Thirst</a>
-        <a href="#" class="nav">Link 1</a>
-        <a href="#" class="nav">Link 2</a>
-        <a href="#" class="nav">Link 3</a>
-        <a href="#" class="nav">Link 4</a>
-      </nav>
-      <nav class="nav-stretched flat" class="botmarnavbar">
-        <a href="#" class="navp">Thirst</a>
-        <a href="#" class="nav">Link 1</a>
-        <a href="#" class="nav">Link 2</a>
-        <a href="#" class="nav">Link 3</a>
-        <a href="#" class="nav">Link 4</a>
-      </nav>
-    </div>
-    <div class="component-titles">
-      <h2 class="botpalette" id="palette">Color Palette</h2>
-    </div>
-    <div class="component">
-      <div id="darkblue">
-      #1F8FE0 <br>
-      Blue
-      </div>
-       <div id="darkgreen">
-      #15B358 <br>
-      Green
-      </div>
-      <div id="darkyellow">
-      #E6BF0A <br>
-      Yellow
-      </div>
-      <div id="darkred">
-      #CE3323 <br>
-      Red
-      </div>
-      <div id="darkgray">
-      #A1A6A9 <br>
-      Gray
-      </div>
-      <br>
-      <div id="blue">
-      #38A8F9 <br>
-      Blue
-      </div>
-       <div id="green">
-      #2ECC71 <br>
-      Green
-      </div>
-      <div id="yellow">
-      #FFD823 <br>
-      Yellow
-      </div>
-      <div id="red">
-      #E74C3C <br>
-      Red
-      </div>
-      <div id="gray">
-      #BDC3C7 <br>
-      Gray
-      </div>
-      <br>
-      <div id="lightblue">
-      #52C2FF <br>
-      Blue
-      </div>
-       <div id="lightgreen">
-      #48E68B <br>
-      Green
-      </div>
-      <div id="lightyellow">
-      #FFF23D <br>
-      Yellow
-      </div>
-      <div id="lightred">
-      #FF6656 <br>
-      Red
-      </div>
-      <div id="lightgray">
-      #D7DDE1 <br>
-      Gray
-      </div>
-    </div>
-    <div id="bottom-bar">
-      Created by <a id="botlink" href="http://designquench.tk">DesignQuench</a> in the United States
-      <div class="align-right">
-        <a href="mailto:jake@thirstui.tk" class="email">jake@thirstui.tk</a>
-        <a href="https://twitter.com/ThirstUI" class="twitter">@ThirstUI</a>
-        <a href="https://github.com/DesignQuench/thirst" class="github">DesignQuench/thirst</a>
-      </div>
-    </div>
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script type="text/javascript" src="resources/js/smoothscroll.js"></script>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-53505204-1', 'auto');
-      ga('send', 'pageview');
-
-    </script>
-  </body>
+	<head>
+		<title>Thirst - Empowering web design.</title>
+		<!-- @reload -->
+		<link href="http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900" rel="stylesheet" type="text/css">
+		<link href="http://fonts.googleapis.com/css?family=Lato:100italic,100,300italic,300,400italic,400,700italic,700,900italic,900" rel="stylesheet" type="text/css">
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,400italic,400,600italic,600,700italic,700,800italic,800" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href='resources/stylesheets/demo.css'>
+		<script src="//fast.eager.io/YW7bQeeQS9.js"></script>
+		<link rel="icon" href="resources/img/favicon.ico" type="image/icon">
+	</head>
+	<body>
+		<nav class="nav-stretched">
+			<a href="http://designquench.tk/thirst.html" class="navp">Thirst</a>
+			<a href="#buttons" class="nav">Buttons</a>
+			<a href="#popovers" class="nav">Popovers</a>
+			<a href="#inputs" class="nav">Inputs</a>
+			<a href="#alerts" class="nav">Alerts</a>
+			<a href="#notifications" class="nav">Notifications</a>
+			<a href="#progress" class="nav">Progress Bar</a>
+			<a href="#select" class="nav">Select</a>
+			<a href="#navbar" class="nav">Navbar</a>
+			<a href="#palette" class="nav">Color Palette</a>
+		</nav>
+		<img id="text-logo" src="resources/img/thirst-text.png" alt="Thirst Logo"/>
+		<div class="component-titles">
+			<h2 id="buttons">
+				Buttons
+			</h2>
+		</div>
+		<div class="component">
+			<a href="#fakelink" class="btn g">Generic Button</a>
+			<a href="#fakelink" class="btn p">Primary Button</a>
+			<a href="#fakelink" class="btn s">Success Button</a>
+			<a href="#fakelink" class="btn w">Warning Button</a>
+			<a href="#fakelink" class="btn d">Danger Button</a>
+			<a class="btn dis">Disabled Button</a>
+		</div>
+		<!--
+			<div class="component-titles">
+			  <h2>Checkboxes</h2>
+			</div>
+			<div class="components">
+			  <input type="checkbox" id="c1" name="cc" />
+			  <label for="c1"><span></span>Check Box 1</label>
+			  -->
+		<div class="component-titles">
+			<h2 id="popovers">Popovers</h2>
+		</div>
+		<div class="component">
+			<div class="popover top">
+				This is a popover.
+			</div>
+			<br>
+			<div class="popover right">
+				This is a longer popover. This one has two lines.
+			</div>
+			<br>
+			<div class="popover bottom" id="bottomtool">
+				This is an even longer popover. This one has three lines.
+			</div>
+		</div>
+		<div class="component-titles">
+			<h2 id="inputs">Input</h2>
+		</div>
+		<div class="component">
+			<input type="text" placeholder="Input"/>
+			<input type="text" class="flat" placeholder="Flat"/>
+			<input type="text" class="nob" placeholder="No Border"/>
+			<input type="text" class="flat-nob" placeholder="Flat No Border"/><br>
+			<input type="text" class="primary" placeholder="Primary"/>
+			<input type="text" class="primary-flat" placeholder="Primary Flat"/>
+			<input type="text" class="primary-nob" placeholder="Primary No Border"/>
+			<input type="text" class="primary-flat-nob" placeholder="Primary Flat No Border"/><br>
+			<input type="text" class="success" placeholder="Success"/>
+			<input type="text" class="success-flat" placeholder="Success Flat"/>
+			<input type="text" class="success-nob" placeholder="Success No Border"/>
+			<input type="text" class="success-flat-nob" placeholder="Success Flat No Border"/><br>
+			<input type="text" class="warning" placeholder="Warning"/>
+			<input type="text" class="warning-flat" placeholder="Warning Flat"/>
+			<input type="text" class="warning-nob" placeholder="Warning No Border"/>
+			<input type="text" class="warning-flat-nob" placeholder="Warning Flat No Border"/><br>
+			<input type="text" class="error" placeholder="Error"/>
+			<input type="text" class="error-flat" placeholder="Error Flat"/>
+			<input type="text" class="error-nob" placeholder="Error No Border"/>
+			<input type="text" class="error-flat-nob" placeholder="Error Flat No Border"/><br>
+			<input type="text" class="dis" placeholder="Disabled" disabled/>
+			<input type="text" class="flat" placeholder="Disabled Flat" disabled/>
+			<input type="text" class="nob" placeholder="Disabled No Border" disabled/><br>
+		</div>
+		<div class="component-titles">
+			<h2 id="alerts">Alerts</h2>
+		</div>
+		<div class="component">
+			<div class="alert p">
+				<strong>Hello!</strong> This is a primary class alert.
+			</div>
+			<div class="alert p flat">
+				<strong>Hello!</strong> This is a flat primary class alert.
+			</div>
+			<br>
+			<div class="alert p">
+				<strong>Hello!</strong> <br> This is a primary class alert.
+				<br>
+				<a href="#fakelink" class="btn p btnalert flat pri">
+				Do something!
+				</a>
+				<a href="#fakelink" class="btn p btnalert sec">
+				Ignore it.
+				</a>
+			</div>
+			<div class="alert p flat">
+				<strong>Hello!</strong> <br> This is a flat primary class alert.
+				<br>
+				<a href="#fakelink" class="btn p btnalert flat pri">
+				Do something!
+				</a>
+				<a href="#fakelink" class="btn p btnalert sec">
+				Ignore it.
+				</a>
+			</div>
+			<br>
+			<div class="alert s">
+				<strong>Hello!</strong> This is a success class alert.
+			</div>
+			<div class="alert s flat">
+				<strong>Hello!</strong> This is a flat success class alert.
+			</div>
+			<br>
+			<div class="alert s">
+				<strong>Hello!</strong> <br> This is a success class alert.
+				<br>
+				<a href="#fakelink" class="btn s btnalert flat pri">
+				Do something!
+				</a>
+				<a href="#fakelink" class="btn s btnalert sec">
+				Ignore it.
+				</a>
+			</div>
+			<div class="alert s flat">
+				<strong>Hello!</strong> <br> This is a flat success class alert.
+				<br>
+				<a href="#fakelink" class="btn s btnalert flat pri">
+				Do something!
+				</a>
+				<a href="#fakelink" class="btn s btnalert sec">
+				Ignore it.
+				</a>
+			</div>
+			<br>
+			<div class="alert w">
+				<strong>Hello!</strong> This is a warning class alert.
+			</div>
+			<div class="alert w flat">
+				<strong>Hello!</strong> This is a flat warning class alert.
+			</div>
+			<br>
+			<div class="alert w">
+				<strong>Hello!</strong> <br> This is a warning class alert.
+				<br>
+				<a href="#fakelink" class="btn w btnalert flat pri">
+				Do something!
+				</a>
+				<a href="#fakelink" class="btn w btnalert sec">
+				Ignore it.
+				</a>
+			</div>
+			<div class="alert w flat">
+				<strong>Hello!</strong> <br> This is a flat warning class alert.
+				<br>
+				<a href="#fakelink" class="btn w btnalert flat pri">
+				Do something!
+				</a>
+				<a href="#fakelink" class="btn w btnalert sec">
+				Ignore it.
+				</a>
+			</div>
+			<br>
+			<div class="alert e">
+				<strong>Hello!</strong> This is a error class alert.
+			</div>
+			<div class="alert e flat">
+				<strong>Hello!</strong> This is a flat error class alert.
+			</div>
+			<br>
+			<div class="alert e">
+				<strong>Hello!</strong> <br> This is a error class alert.
+				<br>
+				<a href="#fakelink" class="btn e btnalert flat pri">
+				Do something!
+				</a>
+				<a href="#fakelink" class="btn e btnalert sec">
+				Ignore it.
+				</a>
+			</div>
+			<div class="alert e flat" id="botalert">
+				<strong>Hello!</strong> <br> This is a flat error class alert.
+				<br>
+				<a href="#fakelink" class="btn e btnalert flat pri">
+				Do something!
+				</a>
+				<a href="#fakelink" class="btn e btnalert sec">
+				Ignore it.
+				</a>
+			</div>
+		</div>
+		<div class="component-titles">
+			<h2 id="notifications">Notifications</h2>
+		</div>
+		<div class="component">
+			<div class="notification g">
+				Generic
+			</div>
+			<div class="notification g flat">
+				Generic
+			</div>
+			<br>
+			<div class="notification p">
+				Primary
+			</div>
+			<div class="notification p flat">
+				Primary
+			</div>
+			<br>
+			<div class="notification s">
+				Success
+			</div>
+			<div class="notification s flat">
+				Success
+			</div>
+			<br>
+			<div class="notification w">
+				Warning
+			</div>
+			<div class="notification w flat">
+				Warning
+			</div>
+			<br>
+			<div class="notification e" id="botnotifications">
+				Error
+			</div>
+			<div class="notification e flat" id="botnotifications">
+				Error
+			</div>
+		</div>
+		<div class="component-titles">
+			<h2 id="progress" class="botprogress">Progress Bar</h2>
+		</div>
+		<div class="component">
+			<progress max="100" value="50"></progress>
+		</div>
+		<div class="component-titles">
+			<h2 id="select" class="botselect">Select</h2>
+		</div>
+		<div class="component">
+		</div>
+		<div class="component">
+			<select>
+				<option value="1">Option 1</option>
+				<option value="2">Option 2</option>
+				<option value="3">Option 3</option>
+				<option value="4">Option 4</option>
+			</select>
+		</div>
+		<div class="component-titles">
+			<h2 id="navbar" class="botnavbar">Navbar</h2>
+		</div>
+		<div class="component">
+			<nav class="nav-rounded-fixed">
+				<a href="#" class="navp">Thirst</a>
+				<a href="#" class="nav">Link 1</a>
+				<a href="#" class="nav">Link 2</a>
+				<a href="#" class="nav">Link 3</a>
+				<a href="#" class="nav">Link 4</a>
+			</nav>
+			<nav class="nav-rounded-stretched">
+				<a href="#" class="navp">Thirst</a>
+				<a href="#" class="nav">Link 1</a>
+				<a href="#" class="nav">Link 2</a>
+				<a href="#" class="nav">Link 3</a>
+				<a href="#" class="nav">Link 4</a>
+			</nav>
+			<nav class="nav-fixed">
+				<a href="#" class="navp">Thirst</a>
+				<a href="#" class="nav">Link 1</a>
+				<a href="#" class="nav">Link 2</a>
+				<a href="#" class="nav">Link 3</a>
+				<a href="#" class="nav">Link 4</a>
+			</nav>
+			<nav class="nav-stretched">
+				<a href="#" class="navp">Thirst</a>
+				<a href="#" class="nav">Link 1</a>
+				<a href="#" class="nav">Link 2</a>
+				<a href="#" class="nav">Link 3</a>
+				<a href="#" class="nav">Link 4</a>
+			</nav>
+			<nav class="nav-rounded-fixed flat">
+				<a href="#" class="navp">Thirst</a>
+				<a href="#" class="nav">Link 1</a>
+				<a href="#" class="nav">Link 2</a>
+				<a href="#" class="nav">Link 3</a>
+				<a href="#" class="nav">Link 4</a>
+			</nav>
+			<nav class="nav-rounded-stretched flat">
+				<a href="#" class="navp">Thirst</a>
+				<a href="#" class="nav">Link 1</a>
+				<a href="#" class="nav">Link 2</a>
+				<a href="#" class="nav">Link 3</a>
+				<a href="#" class="nav">Link 4</a>
+			</nav>
+			<nav class="nav-fixed flat">
+				<a href="#" class="navp">Thirst</a>
+				<a href="#" class="nav">Link 1</a>
+				<a href="#" class="nav">Link 2</a>
+				<a href="#" class="nav">Link 3</a>
+				<a href="#" class="nav">Link 4</a>
+			</nav>
+			<nav class="nav-stretched flat" class="botmarnavbar">
+				<a href="#" class="navp">Thirst</a>
+				<a href="#" class="nav">Link 1</a>
+				<a href="#" class="nav">Link 2</a>
+				<a href="#" class="nav">Link 3</a>
+				<a href="#" class="nav">Link 4</a>
+			</nav>
+		</div>
+		<div class="component-titles">
+			<h2 class="botpalette" id="palette">Color Palette</h2>
+		</div>
+		<div class="component">
+			<div id="darkblue">
+				#1F8FE0 <br>
+				Blue
+			</div>
+			<div id="darkgreen">
+				#15B358 <br>
+				Green
+			</div>
+			<div id="darkyellow">
+				#E6BF0A <br>
+				Yellow
+			</div>
+			<div id="darkred">
+				#CE3323 <br>
+				Red
+			</div>
+			<div id="darkgray">
+				#A1A6A9 <br>
+				Gray
+			</div>
+			<br>
+			<div id="blue">
+				#38A8F9 <br>
+				Blue
+			</div>
+			<div id="green">
+				#2ECC71 <br>
+				Green
+			</div>
+			<div id="yellow">
+				#FFD823 <br>
+				Yellow
+			</div>
+			<div id="red">
+				#E74C3C <br>
+				Red
+			</div>
+			<div id="gray">
+				#BDC3C7 <br>
+				Gray
+			</div>
+			<br>
+			<div id="lightblue">
+				#52C2FF <br>
+				Blue
+			</div>
+			<div id="lightgreen">
+				#48E68B <br>
+				Green
+			</div>
+			<div id="lightyellow">
+				#FFF23D <br>
+				Yellow
+			</div>
+			<div id="lightred">
+				#FF6656 <br>
+				Red
+			</div>
+			<div id="lightgray">
+				#D7DDE1 <br>
+				Gray
+			</div>
+		</div>
+		<div id="bottom-bar">
+			Created by <a id="botlink" href="http://designquench.tk">DesignQuench</a> in the United States
+			<div class="align-right">
+				<a href="mailto:jake@thirstui.tk" class="email">jake@thirstui.tk</a>
+				<a href="https://twitter.com/ThirstUI" class="twitter">@ThirstUI</a>
+				<a href="https://github.com/DesignQuench/thirst" class="github">DesignQuench/thirst</a>
+			</div>
+		</div>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script type="text/javascript" src="resources/js/smoothscroll.js"></script>
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			
+			ga('create', 'UA-53505204-1', 'auto');
+			ga('send', 'pageview');
+			
+		</script>
+	</body>
 </html>
