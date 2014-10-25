@@ -386,7 +386,7 @@ input[type='checkbox'] {
 }
 
 .email:hover {
-	text-decoration: underline;
+	text-decoration: none;
 	color: #677C91;
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
