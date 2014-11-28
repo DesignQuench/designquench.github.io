@@ -338,6 +338,22 @@ ul {
 	-webkit-box-shadow: none;
 }
 
+.btn.g.btnalert.pri.flat {
+	background-color: #D7DDE1;
+}
+
+.btn.g.btnalert.pri.flat:active {
+	background-color: #BDC3C7;
+}
+
+.btn.g.btnalert.sec:hover {
+	background-color: #BDC3C7;
+}
+
+.btn.g.btnalert.sec:active {
+	color: #D7DDE1;
+}
+
 .btn.p.btnalert.pri.flat {
 	background-color: #52C2FF;
 }
@@ -1247,6 +1263,12 @@ nav.flat {
 	width: 555px;
 	padding-right: 10px;
 	color: #2c3e50;
+}
+
+.alert.g {
+	background-color: #BDC3C7;
+	-webkit-box-shadow: inset 0 -2px 0 #A1A6A9;
+	box-shadow: inset 0 -2px 0 #A1A6A9;
 }
 
 .alert.p {
