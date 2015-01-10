@@ -1,0 +1,86 @@
+html {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #29273f;
+	font-family: 'Avenir Next';
+}
+
+.herotop {
+}
+
+.hero1 {
+	width: 100%;
+	margin-bottom: -4px;
+}
+
+#bottom-bar {
+	background-color: #29273f;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	color: #D24D5C;
+}
+
+#botlink,.email,.twitter,.github {
+	color: #D24D5C;
+}
+
+.email,.twitter,.github {
+	margin-right: 10px;
+}
+
+.createdby {
+	margin-left: 20px;
+}
+
+.links {
+	float: right;
+	margin-right: 20px;
+}
+
+.portrait {
+	display: none;
+}
+
+.signup {
+	background-color: #29273f;
+	width: 100%;
+	height: 600px;
+	color: #fff;
+	text-align: center;
+	font-size: 300%;
+	color: #D24D5C;
+}
+
+.anthemText {
+	padding-top: 150px;
+	padding-bottom: 50px;
+	display: inline-block;
+}
+
+@font-face {
+	font-family: 'Avenir Next';
+	src: url('resources/fonts/Avenir Next.ttc');
+}
+
+@media screen and (orientation:portrait) {
+	.all {
+		display: none;
+	}
+	
+	.portrait {
+		display: block;
+		font-family: 'Avenir Next';
+		color: #D24D5C;
+		font-size: 60px;
+		text-align: center;
+	}
+	
+	#portrait {
+		width: 50%;
+	}
+}
