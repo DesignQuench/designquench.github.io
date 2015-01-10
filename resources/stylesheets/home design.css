@@ -36,8 +36,8 @@ body {
 }
 
 #thirst-logo {
-	background-image: url('resources/img/thirst-logo.png')
-	background-color: #ffffff;
+	background-image: url('resources/img/thirst-logo.png');
+	/* background-color: #ffffff; */
 	width: 175px;
 	max-width: 175px;
 	height: 175px;
