@@ -19,17 +19,16 @@ body {
 }
 
 #bottom-bar {
-	background-color: #29273f;
 	padding-bottom: 20px;
 	padding-top: 20px;
 	color: #D24D5C;
 }
 
-#botlink,.email,.twitter,.github {
+#botlink,.contact {
 	color: #D24D5C;
 }
 
-.email,.twitter,.github {
+.contact {
 	margin-right: 10px;
 }
 
