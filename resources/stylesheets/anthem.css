@@ -7,7 +7,7 @@ body {
 	margin: 0px;
 	padding: 0px;
 	background-color: #29273f;
-	font-family: 'Avenir Next';
+	font-family: 'Avenir Next', Helvetica, Arial;
 }
 
 .hero1 {
@@ -58,10 +58,12 @@ body {
 	display: inline-block;
 }
 
+/*
 @font-face {
 	font-family: 'Avenir Next';
 	src: url('../fonts/Avenir Next.ttc');
 }
+*/
 
 @media screen and (orientation:portrait) {
 	.all {
