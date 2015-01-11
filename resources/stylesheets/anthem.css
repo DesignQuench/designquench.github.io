@@ -60,7 +60,7 @@ body {
 
 @font-face {
 	font-family: 'Avenir Next';
-	src: url('resources/fonts/Avenir Next.ttc');
+	src: url('../fonts/Avenir Next.ttc');
 }
 
 @media screen and (orientation:portrait) {
